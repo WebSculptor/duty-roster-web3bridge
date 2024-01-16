@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.schedule {
+  width: 100%;
+  display: flex;
+  max-width: 1000px;
+  margin-inline: auto;
+}
+
+.weeks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.week-number {
+  border: 1px solid transparent;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+.week-number.space {
+  border: none;
+}
+
+.days {
+  display: flex;
+  flex: 1;
+}
+
+.day {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.day-label {
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 20px 0;
+}
+
+.bunks {
+  text-align: center;
+}
+
+.bunk {
+  border: 1px solid #f1f1f1;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+.highlight {
+  background-color: #18b600;
+  color: #fff;
+  border: 1px solid #18b600;
+}
